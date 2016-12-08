@@ -1,0 +1,242 @@
+/*resetting browser margin and padding*/
+* { padding: 0; margin: 0; }
+
+
+/*navigation bar*/
+
+.topHeader {
+    text-align:left;
+    font-family: Arial, helvetica, sans-serif;
+
+
+}
+
+.topHeader nav {
+    width:100%;
+    overflow:hidden;
+    background-color: #4d4d4d;
+
+}
+
+.topHeader nav ul li {
+    display:inline-block;
+}
+
+.topHeader nav ul li a {
+    color:white;
+    padding:10px;
+    font-size:20px;
+    text-align:center;
+    display:inline-block;
+    text-decoration:none;
+}
+
+.topHeader nav ul li a:hover {
+    background-color:lightblue;
+}
+
+
+/*Set Background*/
+
+body {
+    margin: 0;
+    height: 100%;
+    background: rgba(77, 255, 166, 1); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(77, 255, 166, 1), lightblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(77, 255, 166, 1), lightblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(77, 255, 166, 1), lightblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(66,149,244,1), lightblue); /* Standard syntax (must be last) */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/*sites section*/
+
+.sites header {
+    font-size: 20px;
+    text-align: center;
+    padding: 17px 10px 0 10px;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    font-family: arial, helvetica, sans-serif;
+
+}
+
+.imgTBL {
+    margin:auto;
+    padding:10px 0;
+}
+
+.imgTBL td{
+    padding:2px 2px;
+    background-color: white;
+}
+
+td.blankSpace {
+    padding: 0 25px;
+    background-color:transparent;
+}
+
+td.namePlate{
+    text-align:center;
+    text-decoration: underline;
+    background-color:transparent;
+    font-family:arial, helvetica, sans-serif;
+}
+
+td.namePlate a {
+    color:black;
+}
+
+.tblIMG {
+    width:600px;
+    height:400px;
+}
+
+
+/*games section*/
+
+.games header {
+    text-align: center;
+    padding:40px 0 0 0;
+    background-color: transparent;
+    border-bottom:2px solid black;
+    font-family:arial, helvetica, sans-serif;
+
+}
+
+.gamesIMG {
+    text-align:center;
+}
+.gamesIMG img {
+    width:600px;
+    height:400px;
+    padding:2px 2px;
+    display:inline-block;
+    background-color: white;
+
+}
+
+.gamesIMG p{
+    text-align:center;
+    padding:20px 0 2px 5px;
+    text-decoration: underline;
+    font-family:arial, helvetica, sans-serif;
+
+}
+
+.gamesIMG button {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin:auto;
+    display:block;
+    cursor:pointer;
+    color:white;
+    outline:none;
+    background-color:#4d4d4d;
+    font-weight:bold;
+
+}
+
+.gamesIMG button:hover {
+    background-color: grey;
+}
+
+
+/*Prototypes section*/
+
+.prototypes header {
+    text-align: center;
+    padding:40px 0 0 0;
+    background-color: transparent;
+    border-bottom:2px solid black;
+    font-family:arial, helvetica, sans-serif;
+}
+
+.pttIMG {
+    text-align:center;
+}
+
+.pttIMG a:first-child{
+    color:black;
+    display:block;
+    text-align:center;
+    padding:20px 0 2px 5px;
+    text-decoration: underline;
+    font-family:arial, helvetica, sans-serif;
+}
+
+.pttIMG img {
+    width:350px;
+    height:500px;
+    padding: 2px 2px;
+    display:inline-block;
+    background-color: white;
+}
+
+/*Footer*/
+
+
+footer {
+    font-family: Arial, helvetica, sans-serif;
+    width:100%;
+    padding:20px 0 40px 0;
+    background-color: #4d4d4d;
+	text-align:right;
+}
+
+.siteNav ul {
+	display:inline-block;
+    position:relative;
+    bottom:5px;
+    overflow:hidden;
+}
+
+.siteNav ul li {
+    display:inline-block;
+}
+
+.siteNav ul li a {
+    color:white;
+    padding:10px;
+    font-size:14px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+	margin-right: 3px;
+	}
+
+.siteNav ul li a:hover {
+    background-color:lightblue;
+}
+
+.mediaNav ul {
+    float:right;
+    position:relative;
+    overflow:hidden;
+}
+
+.mediaNav ul li {
+    display:inline-block;
+    padding:0 10px 0 0;
+}
+
+.mediaNav ul li a {
+    text-decoration:none;
+}
+
+.mediaNav ul li a img {
+    width:20px;
+    height:20px;
+}
+
+footer #copyright {
+	float:left;
+    color:white;
+	margin-top: 5px;
+	margin-right:20px;
+    font-size:10px;
+}
+

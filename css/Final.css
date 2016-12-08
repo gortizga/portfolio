@@ -1,0 +1,162 @@
+/*resetting browser margin and padding*/
+* { padding: 0; margin: 0; }
+
+html{
+    height:100%;
+    width:100%;
+    margin:0;
+}
+
+/*Navigation Bar*/
+.topHeader {
+    text-align:left;
+    font-family: Arial, helvetica, sans-serif;
+
+}
+
+.topHeader nav {
+    width:100%;
+    overflow:hidden;
+    background-color: #4d4d4d;
+
+}
+
+.topHeader nav ul li {
+    display:inline-block;
+}
+
+.topHeader nav ul li a {
+    color:white;
+    padding:10px;
+    font-size:20px;
+    text-align:center;
+    display:inline-block;
+    text-decoration:none;
+}
+
+.topHeader nav ul li a:hover {
+    background-color:lightblue;
+}
+
+/*set body color*/
+body {
+    background: rgba(77, 255, 166, 1); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(77, 255, 166, 1), lightblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(77, 255, 166, 1), lightblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(77, 255, 166, 1), lightblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(66,149,244,1), lightblue); /* Standard syntax (must be last) */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+/*Main Headers*/
+.header {
+    width:60%;
+    margin: 50px auto auto auto;
+    text-align:left;
+}
+
+/*User Research*/
+
+
+.contentContainer {
+    width:60%;
+    margin: 25px auto 40px;
+    /*border: 1px solid yellow;*/
+}
+
+.img {
+    display: inline-block;
+    width: 32%;
+    /*border: 1px solid orange;*/
+    background-color: white;
+    vertical-align: top;
+
+}
+
+.img img{
+    width:100%;
+    height:100%;
+    background-color: white;
+}
+
+.text {
+    vertical-align: top;
+    margin-left: 20px;
+    display: inline-block;
+    width: 55%;
+    height: 100%;
+    /*border:1px solid red;*/
+}
+
+.text a{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/*Footer*/
+
+footer {
+    font-family: Arial, helvetica, sans-serif;
+    bottom:0;
+    width:100%;
+    padding:20px 0 40px 0;
+    background-color: #4d4d4d;
+    text-align:right;
+}
+
+.siteNav ul {
+    display:inline-block;
+    position:relative;
+    bottom:5px;
+    overflow:hidden;
+}
+
+.siteNav ul li {
+    display:inline-block;
+}
+
+.siteNav ul li a {
+    color:white;
+    padding:10px;
+    font-size:14px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    margin-right: 3px;
+}
+
+.siteNav ul li a:hover {
+    background-color:lightblue;
+}
+
+.mediaNav ul {
+    float:right;
+    position:relative;
+    overflow:hidden;
+}
+
+.mediaNav ul li {
+    display:inline-block;
+    padding:0 10px 0 0;
+}
+
+.mediaNav ul li a {
+    text-decoration:none;
+}
+
+.mediaNav ul li a img {
+    width:20px;
+    height:20px;
+}
+
+footer #copyright {
+    float:left;
+    color:white;
+    margin-top: 5px;
+    margin-right:20px;
+    font-size:10px;
+}
+

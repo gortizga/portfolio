@@ -1,0 +1,164 @@
+/*resetting browser margin and padding*/
+* { padding: 0; margin: 0; }
+
+/*set html height*/
+html{
+    height:100%;
+    width:100%;
+    margin:0;
+}
+/*navigation bar*/
+
+
+.topHeader {
+    text-align:left;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+.topHeader nav {
+    width:100%;
+    overflow:hidden;
+    background-color: #4d4d4d;
+}
+
+.topHeader nav ul li {
+    display:inline-block;
+}
+
+.topHeader nav ul li a {
+    color:white;
+    padding:10px;
+    font-size:20px;
+    text-align:center;
+    display:inline-block;
+    text-decoration:none;
+}
+
+.topHeader nav ul li a:hover {
+    background-color:lightblue;
+}
+
+
+
+/*Set Background*/
+
+body {
+    margin: 0;
+    width:100%;
+    height: 100%;
+    background-size: 65% 100%;
+    background-position: center;
+    background-color: lightsteelblue;
+    background-image: url("../img/Happy.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/*Contacts table*/
+.contact {
+    width: 30%;
+    border-radius:10px;
+    border: 3px solid black;
+    margin: 80px auto;
+    background-color: rgba(255,255,255, .8);
+
+}
+
+
+.contact h2 {
+    text-align:center;
+    text-decoration: underline;
+    color:#4d4d4d;
+
+}
+
+.contact table {
+    padding: 10px 0;
+    margin:auto;
+    font-weight: bold;
+    color:#4d4d4d;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+.contact table td img {
+    width:25px;
+    padding: 0 5px 0 0;
+    margin: 3px 0 0 0;
+    position:relative;
+    top: 2px;
+}
+
+.contact table tr td {
+    padding: 5px 30px;
+}
+.smTag {
+    position:relative;
+    top: 3px;
+}
+
+/*Footer*/
+
+footer {
+    font-family: Arial, helvetica, sans-serif;
+    position:absolute;;
+    bottom:0;
+    width:100%;
+    padding:20px 0 15px 0;
+    background-color: #4d4d4d;
+    text-align:right;
+}
+
+.siteNav ul {
+    display:inline-block;
+    position:relative;
+    bottom:5px;
+    overflow:hidden;
+}
+
+.siteNav ul li {
+    display:inline-block;
+}
+
+.siteNav ul li a {
+    color:white;
+    padding:10px;
+    font-size:14px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    margin-right: 3px;
+}
+
+.siteNav ul li a:hover {
+    background-color:lightblue;
+}
+
+.mediaNav ul {
+    float:right;
+    position:relative;
+    overflow:hidden;
+}
+
+.mediaNav ul li {
+    display:inline-block;
+    padding:0 10px 0 0;
+}
+
+.mediaNav ul li a {
+    text-decoration:none;
+}
+
+.mediaNav ul li a img {
+    width:20px;
+    height:20px;
+}
+
+footer #copyright {
+    float: left;
+    color: white;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 10px;
+}
+

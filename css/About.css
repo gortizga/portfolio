@@ -1,0 +1,263 @@
+/*resetting browser margin and padding*/
+* { padding: 0; margin: 0; }
+
+/*set html height*/
+html{
+    height:100%;
+    width:100%;
+    margin:0;
+}
+/*navigation bar*/
+
+
+.topHeader {
+    text-align:left;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+.topHeader nav {
+    width:100%;
+    overflow:hidden;
+    background-color: #4d4d4d;
+}
+
+.topHeader nav ul li {
+    display:inline-block;
+}
+
+.topHeader nav ul li a {
+    color:white;
+    padding:10px;
+    font-size:20px;
+    text-align:center;
+    display:inline-block;
+    text-decoration:none;
+}
+
+.topHeader nav ul li a:hover {
+    background-color:lightblue;
+}
+
+/*set body color*/
+body {
+    background: rgba(77, 255, 166, 1); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(77, 255, 166, 1), lightblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(77, 255, 166, 1), lightblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(77, 255, 166, 1), lightblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(66,149,244,1), lightblue); /* Standard syntax (must be last) */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+/*Biography Section*/
+header.bio {
+    text-align:center;
+    padding: 17px 10px 0 10px;
+}
+
+div.aboutMe {
+    min-height:100%;
+    padding:0 10px;
+
+}
+
+div.infoWrapper {
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    border-collapse: collapse;
+    display:inline-block;
+    width:100%;
+}
+
+.aboutMeTBL{
+    width:80%;
+    margin:auto;
+}
+
+.aboutMeTBL #firstColumn{
+    width:40%;
+}
+
+.aboutMeTBL #firstColumn img {
+    width:250px;
+    height:350px;
+}
+
+.aboutMeTBL2 {
+    position:static;
+    float:right;
+}
+.aboutMeTBL2 p {
+    padding:5px 10px 0 0;
+}
+
+
+.aboutMeTBL2 td{
+    padding:0 50px 20px 0;
+}
+
+.aboutMeTBL2 td:nth-child(odd) {
+    padding:0 0 20px 0;
+}
+
+/*Accordion*/
+.description{
+    width:100%;
+    text-align:center;
+    font-family: Arial, helvetica, sans-serif;
+
+}
+
+button.accordion {
+    background-color:#4d4d4d;
+    color:white;
+    cursor:pointer;
+    padding:18px;
+    width:55%;
+    border-radius:10px;
+    border:none;
+    text-align: center;
+    outline:none;
+    font-size:24px;
+    transition: .5s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color:gray;
+}
+
+div.accSections {
+    width:54%;
+    margin:auto;
+    border-radius:5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top:none;
+    background-color: rgba(255,255,255, .6);
+    max-height: 10px;
+    overflow:hidden;
+    transition: 0.4s ease-in-out;
+    opacity:0;
+    text-align:left;
+    font-family: Arial, helvetica, sans-serif;
+    color:#4d4d4d;
+
+
+}
+
+div.me p {
+    font-size: 18px;
+    padding: 5px 0 5px 10px;
+
+}
+
+div.interests ul{
+    list-style-type: none;
+    font-size:18px;
+    padding: 10px 0px 10px 5px;
+    text-decoration: underline;
+    font-weight:bold;
+    color: darkred;
+
+}
+
+div.interests p {
+    padding: 0 0 10px 5px;
+    font-size:16px;
+
+}
+
+div.skills ul {
+    list-style-type: none;
+    padding:5px;
+}
+div.skills ul li {
+    padding: 10px 20px;
+    font-weight:bold;
+
+}
+
+div.skills ul li strong{
+    color:darkred;
+    padding: 0 3px 0 0;
+}
+
+div.accSections.show {
+    margin: 0 auto 15px;
+    opacity:1;
+    max-height:700px;
+}
+
+div.accSections.hide {
+    margin: auto;
+    opacity:0;
+    max-height:10px;
+}
+
+
+/*Footer*/
+
+footer {
+    font-family: Arial, helvetica, sans-serif;
+    bottom:0;
+    width:100%;
+    padding:20px 0 40px 0;
+    background-color: #4d4d4d;
+	text-align:right;
+}
+
+.siteNav ul {
+	display:inline-block;
+    position:relative;
+    bottom:5px;
+    overflow:hidden;
+}
+
+.siteNav ul li {
+    display:inline-block;
+}
+
+.siteNav ul li a {
+    color:white;
+    padding:10px;
+    font-size:14px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+	margin-right: 3px;
+	}
+
+.siteNav ul li a:hover {
+    background-color:lightblue;
+}
+
+.mediaNav ul {
+    float:right;
+    position:relative;
+    overflow:hidden;
+}
+
+.mediaNav ul li {
+    display:inline-block;
+    padding:0 10px 0 0;
+}
+
+.mediaNav ul li a {
+    text-decoration:none;
+}
+
+.mediaNav ul li a img {
+    width:20px;
+    height:20px;
+}
+
+footer #copyright {
+	float:left;
+    color:white;
+	margin-top: 5px;
+	margin-right:20px;
+    font-size:10px;
+}
+
